@@ -1,0 +1,97 @@
+.overskrift {
+    font-size: 8rem;
+    text-align: center;
+    color: #130f0d;
+ }
+
+.linkeoverskrift {
+        font-size: 5rem;
+        text-align: center; 
+        color: #130f0d; 
+}
+
+.text-overskrift {
+    font-size: 5rem;
+    text-align: center;  
+    color: #130f0d; 
+}
+
+p {
+    font-size: 2rem;
+    text-align: center; 
+    color: #66796B;
+    line-height: 1,5rem;    
+}¢
+
+.link {    
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+body {
+    float: left;
+    background-color: #D4C2AD; ;
+}
+
+
+.Link-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+
+.bilde-ved-overskriften{
+    text-align: center;
+    justify-content: center;   
+}
+
+.Ins-button button {
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+   
+}
+
+#smeny{
+    display: none;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    z-index: 5;
+    background-color: #130f0d;
+}
+
+.dark-mode {
+    transition: 500ms;
+    background-color: #000;
+    color: white;
+   }
+
+.button {
+    width: 200px;
+    height: 50px;
+   }
+   
+ 
+   
+
+/* Color Theme Swatches in Hex */
+.Italian-1-hex { color: #D4C2AD; }
+.Italian-2-hex { color: #D7A184; }
+.Italian-3-hex { color: #EFDFCC; }
+.Italian-4-hex { color: #BA8E7A; }
+.Italian-5-hex { color: #66796B; }
+
+
+
+
+
+
+
+
+
