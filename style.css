@@ -21,7 +21,7 @@ p {
     text-align: center; 
     color: #66796B;
     line-height: 1,5rem;    
-}¢
+}
 
 .link {    
     display: flex;
@@ -47,13 +47,14 @@ body {
     justify-content: center;   
 }
 
-.Ins-button button {
+#Ins-button button {
     background: none;
     color: inherit;
     border: none;
     padding: 0;
     font: inherit;
     outline: inherit;
+    height: 200px;
    
 }
 
@@ -76,6 +77,11 @@ body {
     width: 200px;
     height: 50px;
    }
+
+#Innstilliger-bilde {
+    height: 200px;
+}
+
    
  
    
