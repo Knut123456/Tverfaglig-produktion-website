@@ -1,8 +1,18 @@
+body {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr auto 1fr;
+    grid-area: 
+    " side head"
+
+    ;
+}
+ 
 .overskrift {
     font-size: 8rem;
     text-align: center;
     color: #130f0d;
- }
+}
 
 .linkeoverskrift {
         font-size: 5rem;
@@ -35,14 +45,13 @@ body {
 }
 
 
-.Link-div{
+.Link-div {
     display: flex;
     justify-content: center;
     align-items: center;
- }
+}
 
-
-.bilde-ved-overskriften{
+.bilde-ved-overskriften {
     text-align: center;
     justify-content: center;   
 }
@@ -54,8 +63,7 @@ body {
     padding: 0;
     font: inherit;
     outline: inherit;
-    height: 200px;
-   
+    height: 200px; 
 }
 
 #smeny{
@@ -71,17 +79,21 @@ body {
     transition: 500ms;
     background-color: #000;
     color: white;
-   }
+}
 
 .button {
     width: 200px;
     height: 50px;
-   }
+}
 
 #Innstilliger-bilde {
     height: 200px;
 }
 
+#innstDialog {
+width: 400px;
+height: 400px;
+}
    
  
    

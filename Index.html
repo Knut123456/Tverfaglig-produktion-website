@@ -7,20 +7,20 @@
     <link rel="stylesheet" href="style.css">
     <title>Scam website</title>
 </head>
-<body>
-    
-<div>
-            <button id="insbutton" > <img src="Picture/Innstilliger.webp" id="Innstilliger-bilde"></button>
-            <div id="smeny"> 
-            <button id="darkModeToggle">Toggle Dark Mode</button>
-            </div>
+<body> 
+    <div>
+        <dialog id="innstDialog">
+            <button>
 
-        </div>
+            </button>
+            <button id="lukk" onClick="innstDialog.close()">Lukk</button>
+        </dialog>
+        <button onclick="innstDialog.showModal()">test</button>
+
         <h1 class="overskrift">Internett scams </h1>
         <div class="div-picthu">
             <img src="Picture/scam.jpg!d" class="bilde-ved-overskriften">
         </div>
-
         <div class="Link-div">  
             <h3 class="linkeoverskrift"> Content</h3>
             <button id="podcastLink" class=" button " >Podcast</button>
@@ -34,8 +34,9 @@
                 using fake websites, emails, messages, or social media. 
                 This can include fake online stores, phishing emails pretending to be from reputable companies, false investment opportunities, 
                 or even romantic scams where someone pretends to be interested in a relationship to obtain money.
-                The essence lies in deceiving individuals or organizations to gain financial profit or acquire sensitive information that can be misused.  </p>
+                The essence lies in deceiving individuals or organizations to gain financial profit or acquire sensitive information that can be misused.  
+            </p>
         </div>
-</div> 
+    </div> 
 </body>
 </html>
