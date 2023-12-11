@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,6 +8,29 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <dialog id="innstDialog">
+            <button id="darkModeToggle">Toggle dark mode</button>
+            <button id="lukk" onClick="innstDialog.close()">close</button>
+        </dialog>
+        <button onclick="innstDialog.showModal()">Settings</button>
+        <h1 class="overskrift">How to protect yourself </h1>
+    </header>
+    <div class="div-picthu">
+        <img src="Picture/scam.jpg!d" class="bilde-ved-overskriften">
+    </div>
+    <div class="Link-div">  
+        <button id="index-link" class="link-button">Link to main page</button>
+    </div>    
+    <div>
+        <h2 class="text-overskrift">What is a protect yourself from scam</h2>
+        <p>An internet scam is a form of fraud conducted over the internet.
+            It can take various forms, but generally involves deceiving people into providing personal information, money, or other valuable resources 
+            using fake websites, emails, messages, or social media. 
+            This can include fake online stores, phishing emails pretending to be from reputable companies, false investment opportunities, 
+            or even romantic scams where someone pretends to be interested in a relationship to obtain money.
+            The essence lies in deceiving individuals or organizations to gain financial profit or acquire sensitive information that can be misused.  
+        </p>
+    </div>
 </body>
 </html>

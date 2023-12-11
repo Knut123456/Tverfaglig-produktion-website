@@ -8,35 +8,32 @@
     <title>Scam website</title>
 </head>
 <body> 
-    <div>
+    <header>
         <dialog id="innstDialog">
-            <button>
-
-            </button>
-            <button id="lukk" onClick="innstDialog.close()">Lukk</button>
+            <button id="darkModeToggle">Toggle dark mode</button>
+            <button id="lukk" onClick="innstDialog.close()">close</button>
         </dialog>
-        <button onclick="innstDialog.showModal()">test</button>
-
+        <button onclick="innstDialog.showModal()">Settings</button>
         <h1 class="overskrift">Internett scams </h1>
-        <div class="div-picthu">
-            <img src="Picture/scam.jpg!d" class="bilde-ved-overskriften">
-        </div>
-        <div class="Link-div">  
-            <h3 class="linkeoverskrift"> Content</h3>
-            <button id="podcastLink" class=" button " >Podcast</button>
-            <button id="safelink" class=" button ">How to be safe from scams</button>
-            <button id="differntscam" class=" button ">Different ways the scam gets you</button>
-        </div>    
-        <div>
-            <h2 class="text-overskrift">What is a internett scam</h2>
-            <p>An internet scam is a form of fraud conducted over the internet.
-                It can take various forms, but generally involves deceiving people into providing personal information, money, or other valuable resources 
-                using fake websites, emails, messages, or social media. 
-                This can include fake online stores, phishing emails pretending to be from reputable companies, false investment opportunities, 
-                or even romantic scams where someone pretends to be interested in a relationship to obtain money.
-                The essence lies in deceiving individuals or organizations to gain financial profit or acquire sensitive information that can be misused.  
-            </p>
-        </div>
-    </div> 
+    </header>
+    <div class="div-picthu">
+        <img src="Picture/scam.jpg!d" class="bilde-ved-overskriften">
+    </div>
+    <div class="Link-div">  
+        <h3 class="linkeoverskrift"> Content</h3>
+        <button id="podcastlink" class=" link-button " >Podcast</button>
+        <button id="safelink" class=" link-button ">How to be safe from scams</button>
+        <button id="differntscam" class=" link-button ">Different ways the scam gets you</button>
+    </div>    
+    <div>
+        <h2 class="text-overskrift">What is a internett scam</h2>
+        <p>An internet scam is a form of fraud conducted over the internet. </p>
+        <p>It can take various forms, but generally involves deceiving people into providing personal information, money, or other valuable resources 
+            using fake websites, emails, messages, or social media. </p>
+        <p>This can include fake online stores, phishing emails pretending to be from reputable companies, false investment opportunities, 
+            or even romantic scams where someone pretends to be interested in a relationship to obtain money.</p> 
+        <p>The essence lies in deceiving individuals or organizations to gain financial profit or acquire sensitive information that can be misused.  </p>
+        
+    </div>
 </body>
 </html>

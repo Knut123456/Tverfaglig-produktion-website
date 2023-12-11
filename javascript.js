@@ -1,22 +1,7 @@
-const podcast = document.getElementById("podcastLink")
+const podcast = document.getElementById("podcastlink")
 const safelink = document.getElementById("safelink")
 const differntscam = document.getElementById("differntscam")
-const smeny =document.getElementById ("smeny")
-const insbutton = document.getElementById ("insbutton")
-
-
-let menyopen = false
-
-insbutton.addEventListener ("click", function (){
-    if (menyopen ==false) {
-        smeny.style.display ="block"
-        menyopen = true
-    }
-    else {
-        smeny.style.display = "none"
-        menyopen = false
-    }
-})
+const index = document.getElementById("index-link")
 
 
 
@@ -32,6 +17,9 @@ differntscam.addEventListener("click", function () {
     window.location = "differntscam.html"
 })
 
+index.addEventListener("click", function () {
+    window.location = "index.html"
+})
 
 
 const darkModeToggle = document.getElementById("darkModeToggle");

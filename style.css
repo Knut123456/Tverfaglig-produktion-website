@@ -1,23 +1,28 @@
-body {
+/* body {
     display: grid;
     grid-template-columns: 1fr auto;
     grid-template-rows: 1fr auto 1fr;
     grid-area: 
-    " side head"
-
+    "side head"
+    "pict pict"
+    "link link"
+    "text text"
     ;
+} */
+header {
+    display: flex;
+    align-items: center;
 }
- 
 .overskrift {
     font-size: 8rem;
     text-align: center;
-    color: #130f0d;
+    color: #040012;
 }
 
 .linkeoverskrift {
-        font-size: 5rem;
-        text-align: center; 
-        color: #130f0d; 
+    font-size: 5rem;
+    text-align: center; 
+    color: #040012; 
 }
 
 .text-overskrift {
@@ -29,7 +34,7 @@ body {
 p {
     font-size: 2rem;
     text-align: center; 
-    color: #66796B;
+    color: #040012;
     line-height: 1,5rem;    
 }
 
@@ -49,31 +54,16 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 .bilde-ved-overskriften {
     text-align: center;
     justify-content: center;   
+    width: 100%;
 }
 
-#Ins-button button {
-    background: none;
-    color: inherit;
-    border: none;
-    padding: 0;
-    font: inherit;
-    outline: inherit;
-    height: 200px; 
-}
 
-#smeny{
-    display: none;
-    position: absolute;
-    width: 300px;
-    height: 300px;
-    z-index: 5;
-    background-color: #130f0d;
-}
 
 .dark-mode {
     transition: 500ms;
@@ -81,11 +71,23 @@ body {
     color: white;
 }
 
-.button {
-    width: 200px;
+.link-button {
+    background-color: #242100; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+    
+}
+button{
     height: 50px;
 }
-
 #Innstilliger-bilde {
     height: 200px;
 }
@@ -94,7 +96,20 @@ body {
 width: 400px;
 height: 400px;
 }
-   
+
+dialog {
+    position: relative;   
+    margin: auto;
+    width: 500px;
+    height: 300px;
+    padding: 1rem;
+    border-radius: 0.5rem;
+ }
+
+ dialog::backdrop {
+    background-color: black;
+   opacity: 0.4;
+ }
  
    
 
@@ -104,7 +119,6 @@ height: 400px;
 .Italian-3-hex { color: #EFDFCC; }
 .Italian-4-hex { color: #BA8E7A; }
 .Italian-5-hex { color: #66796B; }
-
 
 
 
