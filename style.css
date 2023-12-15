@@ -91,13 +91,10 @@ body {
 button{
     height: 50px;
 }
-#Innstilliger-bilde {
-    height: 200px;
-}
+
 
 #innstDialog {
-width: 400px;
-height: 400px;
+width: 200px;
 }
 
 dialog {
@@ -113,6 +110,22 @@ dialog {
     background-color: black;
    opacity: 0.4;
  }
+
+ .innstbilder {
+    width: 100px;
+    height: 100px;
+}
+
+.bildelink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 3rem;
+    margin-top: 10px;
+    
+}
  
    
 
