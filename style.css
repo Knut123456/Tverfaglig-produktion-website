@@ -66,11 +66,7 @@ body {
     width: 70%;
 }
 
-.dark-mode body {
-    transition: 500ms;
-    background-color: #000;
-    color: white;
-}
+
 
 .link-button {
     background-color: #242100; 
@@ -122,9 +118,37 @@ dialog {
     text-decoration: none;
     font-size: 3rem;
     margin-top: 10px;
-    
 }
- 
+body.dark-mode {
+    background-color: #242424;
+    color: #FFFFFF;
+}
+
+body.dark-mode h1 {
+    color: #dcdcdb; 
+}
+
+body.dark-mode h2 {
+    color: #dcdcdb; 
+}
+body.dark-mode h3 {
+    color: #dcdcdb; 
+}
+
+body.dark-mode p {
+    color: #dcdcdb; 
+}
+body.dark-mode a {
+    color: #dcdcdb; 
+}
+.podcastdiv {
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+
    
 
 /* Color Theme Swatches in Hex */

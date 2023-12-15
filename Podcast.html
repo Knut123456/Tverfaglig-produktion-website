@@ -3,20 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="javascript.js"></script>
+    <script type="module" src="podcast.js"></script>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>podcast</title>
 </head>
 <body>
-    <H1 class="overskrift">welcomen til min podcast</H1>
+    <header>
+        <dialog id="innstDialog">
+            <input type="checkbox" id="darkModeToggle">Toggle dark mode
+            <button id="lukk" onClick="innstDialog.close()">close</button>
+        </dialog>
+        <button onclick="innstDialog.showModal()"><img src="/Picture/Innstilliger.webp" class="innstbilder"></button>
+        <h1 class="overskrift">Welcome to the podcast</h1>
+    </header>
     <div class="Link-div">  
         <div class="Link-div">  
             <a href="Index.html" class="link-button">To the main page</a>
         </div>    
-    </div>    
-    <video width="1080" height="1080" controls>
+    </div> 
+    <div class="podcastdiv">
+    <video width="500" height="500" controls>
         <source src="Podcast/Podcast_InternetScam.mp4" type="video/mp4">
       </video>
-      
+    </div>   
 </body>
 </html>
